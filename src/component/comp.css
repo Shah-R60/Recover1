@@ -1,0 +1,32 @@
+.header{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border: 2px solid #ccc;
+     padding: 10px;
+     font-weight: bold;
+     font-size: large;
+}
+
+.main{
+     height: 80vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border: 2px solid #ccc;
+     padding: 10px;
+     font-weight: bold;
+     font-size: large;
+}
+
+.main .button{
+     width: 200px;
+     height: 200px;
+     background-color:  rgb(1, 65, 192);
+     border-radius: 20px;
+     font-size: 20px;
+     border-color: white;
+     font-weight: bold;
+}
